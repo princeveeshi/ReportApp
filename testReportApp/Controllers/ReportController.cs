@@ -1,12 +1,10 @@
-﻿using AspNetCore.Reporting;
-using Microsoft.Reporting.NETCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.Reporting.NETCore;
+using System.IO;
 using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using testReportApp.IRepo;
-using testReportApp.Model;
+using System.Threading.Tasks;
 
 namespace testReportApp.Controllers
 {
@@ -31,20 +29,21 @@ namespace testReportApp.Controllers
         {
             try
             {
-                string mimetype = "";
-                int extention = 1;
-                var path = $"{this._webHostEnvironment.WebRootPath}\\Reports\\EmployeeData.rdl";
-                Dictionary<string, string> para = new Dictionary<string, string>();
+                var reportPath = Path.Combine(_webHostEnvironment.WebRootPath, "Reports", "EmployeeData.rdl");
+                var empData = await _empRepo.GetDatas(); 
+                LocalReport report = new LocalReport();
 
-                var Empdatas = await _empRepo.GetDatas();
+                var reportDefinition = System.IO.File.ReadAllBytes(reportPath);
+                report.LoadReportDefinition(new MemoryStream(reportDefinition));
 
-                AspNetCore.Reporting.LocalReport localReport = new AspNetCore.Reporting.LocalReport(path);
-                localReport.AddDataSource("DataSet1", Empdatas);
+                report.DataSources.Add(new ReportDataSource("DataSet1", empData));
 
-                var result = localReport.Execute(RenderType.Pdf, extention, para, mimetype);
-                return File(result.MainStream, "application/pdf","xyz.pdf");
+                // Set any report parameters if needed
+                // var parameters = new ReportParameter("Parameter1", "Parameter value");
+                // report.SetParameters(new[] { parameters });
 
-
+                byte[] pdf = report.Render("PDF");
+                return File(pdf, "application/pdf");                //, "GeneratedReport.pdf"
             }
             catch (Exception ex)
             {

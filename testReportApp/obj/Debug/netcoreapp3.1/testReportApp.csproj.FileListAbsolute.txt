@@ -9,11 +9,8 @@ C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreap
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\testReportApp.pdb
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\testReportApp.Views.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\testReportApp.Views.pdb
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\AspNetCore.Reporting.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\AspNetCore.ReportingServices.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Azure.Core.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Azure.Identity.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Dapper.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
@@ -45,7 +42,6 @@ C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreap
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.Server.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.ReportViewer.Common.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\Microsoft.ReportViewer.NETCore.dll
@@ -68,9 +64,6 @@ C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreap
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\System.Text.Json.dll
@@ -116,8 +109,6 @@ C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreap
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
@@ -152,4 +143,3 @@ C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\obj\Debug\netcoreap
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\obj\Debug\netcoreapp3.1\testReportApp.dll
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\obj\Debug\netcoreapp3.1\testReportApp.pdb
 C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\obj\Debug\netcoreapp3.1\testReportApp.genruntimeconfig.cache
-C:\Users\vikas.seth\source\repos\testReportApp\testReportApp\obj\Debug\netcoreapp3.1\testReportApp.csproj.AssemblyReference.cache
